@@ -1,0 +1,7 @@
+
+.social-follow{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:42px!important;margin:64px auto!important;border:1px solid #d9e4f3;border-radius:20px;background:linear-gradient(120deg,#f3f7ff,#fff);box-sizing:border-box;max-width:1200px}
+.social-follow>div:first-child{max-width:650px}.social-follow .eyebrow{color:#3964a4;font-size:11px;letter-spacing:.12em;font-weight:700;margin:0 0 14px}
+.social-follow h2,.edition .social-follow h2{font-family:inherit;font-size:clamp(25px,3vw,36px);line-height:1.2;letter-spacing:-.035em;font-weight:650;color:#17243b;margin:0 0 15px}.social-follow p{font-size:15px;line-height:1.8;color:#526178;margin:0}
+.social-follow-action{display:flex;flex-direction:column;gap:12px;align-items:flex-start;flex-shrink:0}.social-follow-action>span{font-size:11px;color:#68758a}.social-follow .follow-button{display:inline-flex;gap:20px;align-items:center;padding:16px 22px;border-radius:10px;background:#235bc4;color:#fff;font-size:14px;font-weight:650;text-decoration:none;white-space:nowrap;transition:background .15s}.social-follow .follow-button:hover{background:#174798}.social-follow .follow-button:focus-visible{outline:3px solid #77a3f9;outline-offset:4px}
+@media(max-width:800px){.social-follow{flex-direction:column;align-items:flex-start;gap:24px;padding:28px!important;margin:40px auto!important;width:calc(100% - 36px)}.social-follow-action{max-width:100%}.social-follow .follow-button{white-space:normal}.social-follow p{font-size:14px}}
+@media print{.social-follow{display:none}}

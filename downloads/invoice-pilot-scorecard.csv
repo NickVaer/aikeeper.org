@@ -1,0 +1,27 @@
+﻿Metric,Unit,Manual baseline (illustrative),Workflow A (illustrative),Workflow B (illustrative),Observed pilot value,Notes
+TEACHING EXAMPLE ONLY,,,,,,All example inputs are constructed; no customer or vendor result is reported.
+Monthly invoice count,invoices,1000,1000,1000,,Use the same completion boundary for all workflows.
+Initial human time per invoice,minutes,3,0.6,0.6,,Every invoice receives review; this is an assumption to test.
+Additional exception share,percent,Included in baseline,35,15,,"Extra work after initial review, not a model accuracy score."
+Additional time per exception,minutes,Included in baseline,2,2,,Do not add baseline exception time a second time.
+Assigned labor cost,USD/hour,30,30,30,,Assigned labor cost is not necessarily cash expenditure.
+Processing charge per invoice,USD,0,0.01,0.03,,Assumed all-in variable charge including expected retries.
+Additional operating allowance,USD/month,0,200,200,,Additional non-labor allowance; not a quoted subscription.
+Total human time,hours,50.0,21.6667,15.0,,Calculated using unrounded inputs.
+Assigned human cost,USD/month,1500,650,450,,Baseline includes the existing exception work.
+Processing cost,USD/month,0,10,30,,Constructed example inputs.
+Total assigned monthly cost,USD,1500,860,680,,Excludes implementation and other omitted costs.
+Assigned cost per completed invoice,USD,1.5,0.86,0.68,,Assumes every example invoice reaches the same completion standard.
+Assigned cost difference from baseline,USD/month,0,640,820,,Not demonstrated cash savings or profit.
+Sensitivity: initial review time,minutes per invoice,,,2,,Keep B other inputs unchanged.
+Sensitivity: total assigned B cost,USD/month,,,1380,,120 below baseline before implementation and other omitted costs.
+Completed records,count,,,,,Measure; do not count unreviewed drafts as completed.
+Unresolved records,count,,,,,Report separately from accepted outcomes.
+Missed discrepancies,count and severity,,,,,Record against the labelled reference decisions.
+Unnecessary escalations,count,,,,,Track additional human work.
+Critical payment-detail errors,count and description,,,,,Record separately; use the pre-agreed pause rule.
+Observed end-to-end review time,minutes per completed record,,,,,Include initial checking and exception handling.
+Actual cash expenditure,USD,,,,,Keep distinct from assigned labor cost.
+Implementation and setup budget,USD,,,,,Not included in the illustrative monthly comparison.
+Acceptance rule and result,text,,,,,Agree before running the held-out evaluation.
+Decision owner and next action,text,,,,,"Continue, narrow or stop; record the supporting evidence."
