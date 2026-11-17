@@ -5,3 +5,6 @@
 .social-follow-action{display:flex;flex-direction:column;gap:12px;align-items:flex-start;flex-shrink:0}.social-follow-action>span{font-size:11px;color:#68758a}.social-follow .follow-button{display:inline-flex;gap:20px;align-items:center;padding:16px 22px;border-radius:10px;background:#235bc4;color:#fff;font-size:14px;font-weight:650;text-decoration:none;white-space:nowrap;transition:background .15s}.social-follow .follow-button:hover{background:#174798}.social-follow .follow-button:focus-visible{outline:3px solid #77a3f9;outline-offset:4px}
 @media(max-width:800px){.social-follow{flex-direction:column;align-items:flex-start;gap:24px;padding:28px!important;margin:40px auto!important;width:calc(100% - 36px)}.social-follow-action{max-width:100%}.social-follow .follow-button{white-space:normal}.social-follow p{font-size:14px}}
 @media print{.social-follow{display:none}}
+.newsletter-signup{margin-bottom:0!important}.newsletter-signup+.social-follow{margin-top:24px!important}.newsletter-signup>div:first-child{max-width:600px}
+.newsletter-action{width:100%;max-width:440px}.newsletter-form{width:100%;min-height:52px}.newsletter-action>span a{color:inherit}
+@media(max-width:800px){.newsletter-action{max-width:none}}
